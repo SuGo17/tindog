@@ -31,3 +31,21 @@ footer
     transform: scale(1.3);
     opacity: 1;
 }
+@media(max-width:630px)
+{
+    footer
+    {
+        height:10vh;
+    }
+    .social img
+    {
+        transform: scale(.6);
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .copyright
+    {
+        font-size: 8px;
+        margin-top: 5px;
+    }
+}
